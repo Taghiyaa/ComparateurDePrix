@@ -1,0 +1,205 @@
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Style de l'en-tête */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 24px;
+}
+
+/* Style des liens de la barre de navigation */
+
+
+
+/* Style du conteneur principal */
+main {
+    padding: 20px;
+}
+
+/* Style du formulaire de comparaison */
+h2 {
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select {
+    width: 200px;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius:5px;
+    border:transparent;
+}
+/* Style lorsque le select est survolé */
+select:hover {
+  border-color: #333;
+}
+
+/* Style lorsque le select est activé (focus) */
+select:focus {
+  border-color: #333; /* Changez la couleur de bordure selon vos préférences */
+  box-shadow: 0 0 5px #333; /* Ajoutez une ombre portée lorsque le select est activé */
+}
+select option {
+  background-color: #ffffff; /* Couleur de fond des options */
+  color: #000000; /* Couleur du texte des options */
+  padding: 5px 10px; /* Rembourrage des options */
+  font-size: 16px; /* Taille de police des options */
+  border: none; /* Supprimer les bordures des options */
+}
+
+/* Style de l'option survolée */
+select option:hover {
+  background-color: #333; /* Nouvelle couleur de fond lors du survol */
+  cursor: pointer; /* Afficher un curseur de pointeur lors du survol */
+}
+
+form button {
+    padding: 8px 20px;
+    background-color:  #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #c82333;
+}
+
+/* Style des cartes */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.img-container {
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.img-container div {
+    padding: 10px;
+}
+
+.img-container h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.img-container span {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+/* Style des boutons Modifier et Supprimer */
+.img-container div a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.img-container div a button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.img-container div a button:hover {
+    background-color: #c82333;
+    border-radius: 10px;
+}
+
+	
+.C {
+    margin-top: -30px;
+    float: right;
+    margin-right: 20px;
+}
+
+.A {
+    padding: 8px 20px;
+    background-color:  #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+.A:hover{
+	background-color: #c82333;
+}
+.B {
+    padding: 8px 20px;
+    background-color:  #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    margin-left: 10px; /* Ajouter une marge à gauche */
+}
+.B:hover{
+	background-color: #c82333;
+}
+
+
+button {
+	padding: 8px 20px;
+    background-color:  #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    margin-left:10px;
+}
+button:hover{
+	background-color: #c82333;
+}
+.button-container {
+    display: flex; /* Permet d'afficher les éléments en ligne */
+    margin-right: 30px; /* Ajoute un espace entre les boutons */
+}
+
+.D{
+	margin-left:15px;
+}
+.navbar-links{
+	display:flex;
+	gap:2px;
+	
+}

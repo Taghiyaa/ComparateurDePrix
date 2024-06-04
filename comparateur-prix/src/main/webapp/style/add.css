@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+/* Sélecteur pour le conteneur principal */
+.navbar{
+	 background-color: #333;
+}
+.container {
+    width: 80%; /* Largeur du conteneur */
+    margin: 0 auto; /* Centrage horizontal */
+}
+
+/* Style pour les titres */
+h2 {
+    color: white; /* Couleur du texte */
+    font-size: 24px; /* Taille de la police */
+}
+
+/* Style pour les étiquettes de formulaire */
+label {
+    display: block; /* Afficher chaque étiquette sur une ligne */
+    margin-bottom: 10px; /* Espacement en bas */
+    font-weight: bold; /* Texte en gras */
+}
+
+/* Style pour les champs de formulaire */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%; /* Largeur de 100% */
+    padding: 10px; /* Rembourrage autour du champ */
+    margin-bottom: 20px; /* Espacement en bas */
+    border: 1px solid #ccc; /* Bordure de 1px solide grise */
+    border-radius: 5px; /* Coins arrondis */
+    box-sizing: border-box; /* Inclure la bordure et le rembourrage dans la largeur */
+}
+
+/* Style pour les boutons */
+button {
+    padding: 10px 20px; /* Rembourrage haut/bas 10px, gauche/droite 20px */
+    background-color: #333; /* Couleur de fond bleue */
+    color: #fff; /* Couleur du texte blanc */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de pointeur */
+}
+button:hover{
+	background-color: #c82333;
+}
+
+/* Style pour le lien de retour */
+a {
+    text-decoration: none; /* Pas de soulignement du texte */
+    color: #333; /* Couleur du texte bleue */
+}
+
+/* Style pour la navigation */
+.navbar {
+    background-color: #f8f9fa; /* Couleur de fond gris clair */
+    padding: 10px 0; /* Rembourrage haut/bas 10px, gauche/droite 0 */
+    text-align: center; /* Centrage du texte */
+}
+
+/* Style pour le logo */
+.logo-container {
+    display: inline-block; /* Affichage en ligne pour les éléments du logo */
+}
+
+/* Style pour le texte du logo */
+.logo-text {
+    font-size: 20px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+}
